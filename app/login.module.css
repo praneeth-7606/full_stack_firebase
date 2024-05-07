@@ -1,0 +1,21 @@
+/* login.module.css */
+.container {
+    background-image: url("loginbg.png");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+.container .row {
+    height: 100%;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.9); /* Use a semi-transparent background for the card */
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for depth */
+}
+
+.card h1 {
+    color: #434343;
+}

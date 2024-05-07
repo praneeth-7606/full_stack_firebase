@@ -93,12 +93,7 @@ function Login  ()  {
                                     <Form.Check type="checkbox" label="Remember me" />
                                 </Form.Group>
 
-                                <Form.Group   className="mb-3 " controlId="formBasicRecaptcha">
-                                    <ReCAPTCHA 
-                                        sitekey="6LeBJ9QpAAAAAJ9LGQy8IoArqeVmkvUruQrRcwfQ"
-                                        onChange={handleRecaptchaChange}
-                                    />
-                                </Form.Group>
+                                
 
                                 
                                 
@@ -115,7 +110,7 @@ function Login  ()  {
                                     variant="primary"
                                     type="submit"
                                     className="btn btn-success mt-3 w-100"
-                                    disabled={!verified}
+                                    
                                 >
                                     Login
                                 </Button>
